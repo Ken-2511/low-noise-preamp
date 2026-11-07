@@ -1533,237 +1533,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Switch:SW_SP3T"
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "SW"
-				(at 0 5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "SW_SP3T"
-				(at 0 -5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at -15.875 4.445 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 -7.62 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Switch, three position, single pole triple throw, 3 position switch, SP3T"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "switch sp3t ON-ON-ON"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "SW* SP3T*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "SW_SP3T_0_1"
-				(circle
-					(center -2.032 0)
-					(radius 0.4572)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.651 0.254)
-						(xy 1.651 2.286)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.032 2.54)
-					(radius 0.4572)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.032 0)
-					(radius 0.4572)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.032 -2.54)
-					(radius 0.4572)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "SW_SP3T_1_1"
-				(rectangle
-					(start -3.175 3.81)
-					(end 3.175 -3.81)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin passive line
-					(at 5.08 2.54 180)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 -2.54 180)
-					(length 2.54)
-					(name "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Switch:SW_DPDT_x2"
 			(pin_names
 				(offset 0)
@@ -2548,7 +2317,7 @@
 		(fill
 			(type none)
 		)
-		(uuid "536e8dbd-c1e4-49f3-b96f-193abfd27a00")
+		(uuid "c6b35a3d-3bfe-4ee5-bff7-0879c94525e2")
 	)
 	(text "1  Input: DC block and clamp"
 		(exclude_from_sim no)
@@ -2559,7 +2328,7 @@
 			)
 			(justify left)
 		)
-		(uuid "a399ea4e-73bc-4eff-ad95-de7b4a82ea0c")
+		(uuid "475c0dd6-b79f-46fd-8095-04250858e309")
 	)
 	(symbol
 		(lib_id "Connector:Conn_Coaxial")
@@ -2617,10 +2386,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "2c93021b-0996-4551-8527-f95aa21e2631")
+			(uuid "b6f5f9b7-1081-4a81-bd43-c460216ae640")
 		)
 		(pin "2"
-			(uuid "fc859f97-9e63-43e6-95d2-40091c32af08")
+			(uuid "90380ee2-33f5-40fb-b9d9-07742bdfb08c")
 		)
 		(instances
 			(project "low-noise-preamp"
@@ -2640,7 +2409,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "d1402279-485c-4e61-9bbc-32efa2fc9720")
+		(uuid "4262bce0-d568-473a-b89a-c9f08aa5a4c1")
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -2650,7 +2419,7 @@
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
-		(uuid "09907a65-323b-4e98-a998-f02bc1d69da7")
+		(uuid "33254b46-b816-4c62-8c70-f3cff9ee74df")
 		(property "Reference" "#PWR001"
 			(at 25.4 59.69 0)
 			(effects
@@ -2696,7 +2465,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "e0bd6e98-0715-48b4-9988-a0fd0a89d0bc")
+			(uuid "4bb5817e-6023-4b9c-bbf4-8731b0fb9d57")
 		)
 		(instances
 			(project "low-noise-preamp"
@@ -2760,10 +2529,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "a9646a59-59ee-4530-a0ca-b8aff93a9c11")
+			(uuid "77084906-81a4-45d4-a226-b17ecaf158a4")
 		)
 		(pin "2"
-			(uuid "f1a17bc7-053d-49f1-aec9-6c0065f7d566")
+			(uuid "68828988-3495-445e-9ab8-104bdf37250c")
 		)
 		(instances
 			(project "low-noise-preamp"
@@ -2783,7 +2552,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "80427da8-8c64-46e3-85c9-137becd25b11")
+		(uuid "af1d5b91-f054-4e77-9ee2-ccc90a389106")
 	)
 	(label "IN"
 		(at 31.75 45.72 0)
@@ -2793,7 +2562,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "e348ed96-ac05-43c9-915f-8b3c64fc19e5")
+		(uuid "b0266f91-b891-48ea-8dec-e0e785915092")
 	)
 	(wire
 		(pts
@@ -2804,7 +2573,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "15aa45fe-b05d-4654-adda-798376029fea")
+		(uuid "fb338beb-16b0-4bc7-a871-872da68c8810")
 	)
 	(label "S1_IN"
 		(at 88.9 45.72 0)
@@ -2814,7 +2583,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "1a1d5491-e429-4299-9d74-9c305665abab")
+		(uuid "4d121a04-b66a-4683-98a4-27c9beacfc70")
 	)
 	(symbol
 		(lib_id "Device:R")
@@ -2871,10 +2640,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "d0f87e9e-327c-45f9-aaac-6daafef5f9cd")
+			(uuid "4bc60af2-627e-4888-82cb-f3906a21e623")
 		)
 		(pin "2"
-			(uuid "a9912b4d-6d9c-43b8-a002-0de8faf83c7c")
+			(uuid "9e34f80a-3f15-40b5-a8fe-4ad01b8fa62f")
 		)
 		(instances
 			(project "low-noise-preamp"
@@ -2894,7 +2663,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "c755ba4d-f10e-4cd8-9398-35ea9d6c9d73")
+		(uuid "a19e894d-2635-49aa-805e-5264ee2cae8c")
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -2904,7 +2673,7 @@
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
-		(uuid "de6e6a81-5335-4e02-bbb7-6aa56cbee397")
+		(uuid "c812fc76-f197-4986-81d8-773a1060815e")
 		(property "Reference" "#PWR002"
 			(at 55.88 62.23 0)
 			(effects
@@ -2950,7 +2719,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "a7d7c749-cd37-44cf-8152-2ea4db609d04")
+			(uuid "9b971cef-1e88-4927-a6e9-67002568c961")
 		)
 		(instances
 			(project "low-noise-preamp"
@@ -3032,10 +2801,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "4469f553-2726-4b42-9091-3c49bef329ee")
+			(uuid "d0a4ec7c-a18d-4c8b-b5ff-f68f8c63de04")
 		)
 		(pin "2"
-			(uuid "acaa4d31-0630-431d-874b-3b9fe9a47791")
+			(uuid "2f39025b-faf9-4ee2-871b-e42c5757e641")
 		)
 		(instances
 			(project "low-noise-preamp"
@@ -3055,7 +2824,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "f7b5a22f-a777-4572-9ee7-2a2422bc3219")
+		(uuid "9a541a96-98f0-49b2-88a6-1fdfafd1619c")
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -3065,7 +2834,7 @@
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
-		(uuid "b9733302-180b-4b00-9b5a-d869f5e69204")
+		(uuid "e5d218b6-3647-4680-b69c-47475fd71ac6")
 		(property "Reference" "#PWR003"
 			(at 68.58 62.23 0)
 			(effects
@@ -3111,7 +2880,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "55732183-7259-4d6e-8682-0e90331d4c58")
+			(uuid "8f4fb818-89e3-4f09-bdca-8ca5e4dacaf2")
 		)
 		(instances
 			(project "low-noise-preamp"
@@ -3193,10 +2962,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "5a51bf3a-3636-4a14-ad5f-30f514f14acc")
+			(uuid "748bb1d1-2616-4f9a-94e7-297d9ceb4b71")
 		)
 		(pin "2"
-			(uuid "d4827a03-cb80-4e38-9f9a-8918dba81584")
+			(uuid "4963669f-c84b-4aa1-9043-b4f8cf37d805")
 		)
 		(instances
 			(project "low-noise-preamp"
@@ -3216,7 +2985,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "bfd87de1-ffba-4d5b-b017-1f5ef72b04c7")
+		(uuid "b59f0591-0f1e-495c-a56d-ab659099b11a")
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -3226,7 +2995,7 @@
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
-		(uuid "aadbb9c7-bf02-48a1-b8b7-bcd5cb4a88b1")
+		(uuid "1b1b7a73-d6a8-44e6-91a6-168da83157a4")
 		(property "Reference" "#PWR004"
 			(at 81.28 62.23 0)
 			(effects
@@ -3272,7 +3041,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "4d665df7-4577-4808-840e-109006fc2420")
+			(uuid "7805e320-f929-4607-9778-1003af69fe51")
 		)
 		(instances
 			(project "low-noise-preamp"
@@ -3287,19 +3056,19 @@
 		(at 55.88 45.72)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "aa1a8dd0-ac78-4ed0-af96-335bd8535f4d")
+		(uuid "b8a4e404-4ca8-4bc9-a5a3-a7501911536d")
 	)
 	(junction
 		(at 68.58 45.72)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "956769a5-1fed-431c-b2dd-364fbf113b3b")
+		(uuid "a7b3f59d-c689-4173-b15c-5f4d9dbebc2a")
 	)
 	(junction
 		(at 81.28 45.72)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "1875e4c4-f6c1-4989-b960-159e15d57c12")
+		(uuid "4db71fcd-3a02-4ede-8405-b261b5003249")
 	)
 	(text "C1 + side faces the source (positive rails). Aluminium electrolytic, 13 mm.\nC1 and R1 give a 0.47 Hz high-pass. D1/D2 clamp S1_IN to +/-0.6 V while\nC1 charges on clip-on, so U1's inputs survive. Source up to 25 V DC."
 		(exclude_from_sim no)
@@ -3310,7 +3079,7 @@
 			)
 			(justify left)
 		)
-		(uuid "794eb862-a584-4c6e-acc1-30a4fd50ba3d")
+		(uuid "8d50fa82-1adf-46ad-9c1a-c569264f505a")
 	)
 	(rectangle
 		(start 101.6 20.32)
@@ -3322,7 +3091,7 @@
 		(fill
 			(type none)
 		)
-		(uuid "993de418-8baa-4eb9-bd87-f3b6dada677f")
+		(uuid "cc50091a-8f2c-4df5-86b3-fe3e8a49b583")
 	)
 	(text "2  Stage 1: ADA4898-1, x101"
 		(exclude_from_sim no)
@@ -3333,7 +3102,7 @@
 			)
 			(justify left)
 		)
-		(uuid "5aada571-037b-4650-bec9-5cbe413dbb3c")
+		(uuid "b83f98a9-b79b-4b78-af92-c5f147133760")
 	)
 	(symbol
 		(lib_id "Amplifier_Operational:ADA4898-1YRDZ")
@@ -3390,25 +3159,25 @@
 			)
 		)
 		(pin "2"
-			(uuid "b413484a-4953-497e-a3f7-3eb91de2b9b3")
+			(uuid "a718e59e-c2a9-4c91-a0f6-dfc6f972a776")
 		)
 		(pin "3"
-			(uuid "1bfa906a-c19d-4f88-aec7-1fe94a06bab8")
+			(uuid "22b4d993-5d60-49d5-955f-128c6605d07a")
 		)
 		(pin "4"
-			(uuid "c3b3d347-0f47-4b8b-9011-fbc8ff26ceca")
+			(uuid "9500ceb3-e035-4bf6-add8-94728b138e31")
 		)
 		(pin "6"
-			(uuid "42ac3f87-fe3e-4be7-8d1c-b96ef5a84e3f")
+			(uuid "d95604f0-ccb8-4593-9da8-c50e12700e27")
 		)
 		(pin "7"
-			(uuid "c61f95bb-c494-405f-92c7-8d38f40db240")
+			(uuid "fe508899-d639-436a-b70d-c4064991bb06")
 		)
 		(pin "8"
-			(uuid "a5b0d231-d4f9-4191-a040-816a81926fb8")
+			(uuid "19aa3318-4c11-4aea-b886-0a385cd95130")
 		)
 		(pin "9"
-			(uuid "92165c31-0bc0-4098-a04d-8da5cd556620")
+			(uuid "9bce008d-2e65-4df0-b1f0-728d9a786151")
 		)
 		(instances
 			(project "low-noise-preamp"
@@ -3428,7 +3197,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "d2ddc9e0-2b48-4e38-9140-8dcf4b098d89")
+		(uuid "dd4a840e-8ed0-4bda-b589-5e1cec73252d")
 	)
 	(label "S1_IN"
 		(at 127 43.18 180)
@@ -3438,7 +3207,7 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "4eb82a3f-e024-4307-a2b5-62a627833ecd")
+		(uuid "627a9b39-a266-4312-8667-a40e5af8ffd7")
 	)
 	(wire
 		(pts
@@ -3449,7 +3218,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "7b5801cd-8a03-4089-b4d0-847149ccca2a")
+		(uuid "f896c5c1-0b5f-4289-92b5-043af5632ddd")
 	)
 	(symbol
 		(lib_id "power:+9V")
@@ -3459,7 +3228,7 @@
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
-		(uuid "8a70a9f9-b03a-4051-8abe-715e5e83fe99")
+		(uuid "024348c8-95d4-4ca5-b155-847063727cfd")
 		(property "Reference" "#PWR005"
 			(at 139.7 39.37 0)
 			(effects
@@ -3505,7 +3274,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "194a5a9e-f5a7-4182-ba8d-1f02218750e9")
+			(uuid "5a69f42c-a7c8-4545-9e24-824478e4c4e8")
 		)
 		(instances
 			(project "low-noise-preamp"
@@ -3525,7 +3294,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "fea3883e-02a6-4e05-aae7-87c1eedf286a")
+		(uuid "0f10c752-677e-4e0d-a109-58580855e1d1")
 	)
 	(symbol
 		(lib_id "power:-9V")
@@ -3535,7 +3304,7 @@
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
-		(uuid "f851bebc-a33e-4aa2-a734-7d12669e31ef")
+		(uuid "475be991-2215-4ee7-b0ed-f63214dc2234")
 		(property "Reference" "#PWR006"
 			(at 139.7 59.69 0)
 			(effects
@@ -3581,7 +3350,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "5a222bde-f4b4-46c6-980a-50eaff55ae8c")
+			(uuid "c9ad6407-7bbc-45aa-809e-d071806a07ef")
 		)
 		(instances
 			(project "low-noise-preamp"
@@ -3601,7 +3370,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "825b1b8e-96ae-428b-a66b-bc2087a4c08e")
+		(uuid "ee592951-6a63-4843-9918-030b5b0cf5e3")
 	)
 	(symbol
 		(lib_id "power:-9V")
@@ -3611,7 +3380,7 @@
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
-		(uuid "93bc00c1-ffcd-4da2-89e2-7d8bcc12cd21")
+		(uuid "1b53b14a-44f4-4661-9086-03e26cb00ab6")
 		(property "Reference" "#PWR007"
 			(at 144.78 59.69 0)
 			(effects
@@ -3657,7 +3426,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "b6318fae-6739-47ee-bf40-c04baabe23e9")
+			(uuid "a1d51189-4c8d-4188-8a6f-9dc5b80f8b32")
 		)
 		(instances
 			(project "low-noise-preamp"
@@ -3677,7 +3446,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "4e9a3845-8f1f-42f8-87d2-ca7bd2292ca6")
+		(uuid "744a0980-df9f-4ff0-9da8-5427eb785987")
 	)
 	(wire
 		(pts
@@ -3688,7 +3457,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "f1ce824f-3b4b-4150-b66a-a4ec6ede01fd")
+		(uuid "9ef2953d-b351-426a-9032-488ec9518964")
 	)
 	(symbol
 		(lib_id "power:+9V")
@@ -3698,7 +3467,7 @@
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
-		(uuid "85bc07f6-3ea8-486c-8d9e-649c03d1fb07")
+		(uuid "b6a9d002-69fc-4764-b067-2b736637d1f3")
 		(property "Reference" "#PWR008"
 			(at 149.86 64.77 0)
 			(effects
@@ -3744,7 +3513,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "6022c999-57b0-4804-8207-297e8d09ba05")
+			(uuid "b64147ac-7725-4c75-a5ed-82dbf41873c7")
 		)
 		(instances
 			(project "low-noise-preamp"
@@ -3764,7 +3533,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "f40379fa-ceba-4b75-8e6f-6b8c63f0abb4")
+		(uuid "d3de2556-d42c-439f-9eeb-101494f606d4")
 	)
 	(wire
 		(pts
@@ -3775,7 +3544,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "1dd46f5d-a51f-485f-9975-bf89b142242f")
+		(uuid "4cd22354-c1ee-4fc3-ae57-68b1f46b56fc")
 	)
 	(wire
 		(pts
@@ -3786,7 +3555,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "bafe0d3a-8c0d-41d9-8acb-3dce70ab1dca")
+		(uuid "1712d9ff-25cb-4b8e-9247-bdb5d9484880")
 	)
 	(wire
 		(pts
@@ -3797,7 +3566,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "4e1753a4-4e8a-49d3-90ad-b0c78b076bf7")
+		(uuid "1ba29c95-316b-4d22-bbba-e6554afcc54a")
 	)
 	(label "S1_OUT"
 		(at 162.56 45.72 0)
@@ -3807,13 +3576,13 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "6a87fd0f-b3ab-4cb0-917f-f9120d7290d9")
+		(uuid "d2ff1c47-5134-44c5-824e-20f57bf21bd3")
 	)
 	(junction
 		(at 154.94 45.72)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "a141e21a-3b71-4e79-97ce-129e32cc4a49")
+		(uuid "0f03cbbd-e795-4887-bc14-a1ef69eb9bd3")
 	)
 	(symbol
 		(lib_id "Device:R")
@@ -3868,10 +3637,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "d44ce660-15d2-40e9-b90b-c374191070ac")
+			(uuid "9e7e47d0-83f2-416d-97e6-4bfe73889252")
 		)
 		(pin "2"
-			(uuid "bb2445bb-973e-4df5-bce6-56067ca62844")
+			(uuid "95c548e5-c1c2-49a1-94cf-12c9612135ad")
 		)
 		(instances
 			(project "low-noise-preamp"
@@ -3891,7 +3660,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "77b0356f-8ea9-4716-9f3a-0fb002293bf0")
+		(uuid "322761e6-8e06-44a3-9ac0-7de45a3d309c")
 	)
 	(wire
 		(pts
@@ -3902,7 +3671,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "2cc82261-6911-463d-9f25-f12548ed7b6a")
+		(uuid "d8774982-aafb-4416-9848-42003b00a613")
 	)
 	(wire
 		(pts
@@ -3913,7 +3682,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "ca2a48b3-0eb9-453c-aa3d-e3fff86dadc6")
+		(uuid "db789f9d-34ff-4b3b-bd81-dedb118afab3")
 	)
 	(label "S1_FB"
 		(at 129.54 68.58 0)
@@ -3923,13 +3692,13 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "fe9a99f0-1aa3-4cae-8aaa-0975cf154d1b")
+		(uuid "ce1612f8-83b4-4f43-a293-0e2ce3fb5ec7")
 	)
 	(junction
 		(at 129.54 68.58)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "585033c8-ebb2-4b8e-8a4d-38ad290d6045")
+		(uuid "24af6d37-5d39-4604-97db-65a70da233f9")
 	)
 	(symbol
 		(lib_id "Device:R")
@@ -3986,10 +3755,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "c589626b-ddec-49f9-a124-82c55a128886")
+			(uuid "732163eb-5df3-4dbb-8dd0-e3c3bba3e070")
 		)
 		(pin "2"
-			(uuid "e7b8117b-e42e-4676-bfdc-9e6e1dcd06fc")
+			(uuid "a4d8b5e7-65d6-4307-bcf0-666b8716ae6c")
 		)
 		(instances
 			(project "low-noise-preamp"
@@ -4009,7 +3778,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "d8fd7382-017d-430b-a07f-cb259b108e65")
+		(uuid "c5079b1f-17f8-4d5d-978e-076fe20392ba")
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -4019,7 +3788,7 @@
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
-		(uuid "48338899-98be-466e-aff0-9a870eddcf2b")
+		(uuid "ae7711f0-be3c-47a7-9c68-4e53039f52ff")
 		(property "Reference" "#PWR009"
 			(at 129.54 85.09 0)
 			(effects
@@ -4065,7 +3834,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "87484e73-f9fd-445c-ab17-04a808678016")
+			(uuid "052d51e0-033d-4112-b327-007b61e960c4")
 		)
 		(instances
 			(project "low-noise-preamp"
@@ -4085,7 +3854,7 @@
 			)
 			(justify left)
 		)
-		(uuid "18223608-4863-4fe6-a3cb-fa4c568f125d")
+		(uuid "c271da4a-74b5-4667-8b41-b4d20470c007")
 	)
 	(rectangle
 		(start 198.12 20.32)
@@ -4097,7 +3866,7 @@
 		(fill
 			(type none)
 		)
-		(uuid "1e2feda8-42b6-4cea-8746-2ee34e5377f4")
+		(uuid "9e2fe2d3-a412-4e98-9f63-f0d87c893994")
 	)
 	(text "3  Coupling and Stage 2: OPA1612 A, x1 / x10 / x101"
 		(exclude_from_sim no)
@@ -4108,7 +3877,7 @@
 			)
 			(justify left)
 		)
-		(uuid "9a8d85b2-92d9-4139-bd45-4c65858697d7")
+		(uuid "66332c23-3ae7-4d36-99cf-066ae88af484")
 	)
 	(symbol
 		(lib_id "Amplifier_Operational:OPA1612AxD")
@@ -4165,13 +3934,13 @@
 			)
 		)
 		(pin "1"
-			(uuid "1938ec45-07ae-4c03-a2d1-36df7bb161e1")
+			(uuid "16679ef0-3a63-4681-8693-3d77ca3a7d09")
 		)
 		(pin "2"
-			(uuid "4b88ac9b-20c1-469e-9497-192998f76e51")
+			(uuid "8ec8a947-80b6-4b5c-a2dd-ab71d12d52a1")
 		)
 		(pin "3"
-			(uuid "bf625776-59dc-49c7-b081-a2acd2933b81")
+			(uuid "2e3682de-6cd2-4897-9325-69870838a8f7")
 		)
 		(instances
 			(project "low-noise-preamp"
@@ -4191,13 +3960,13 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "a4b17426-58f6-41a7-9758-611c8cc3cb43")
+		(uuid "3766c11b-c98b-4b7c-8458-c27da117bdad")
 	)
 	(junction
 		(at 242.57 43.18)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "003bede1-b1ed-4019-be63-6a601c5efa0e")
+		(uuid "85c66a60-cb18-4c4d-b720-a7356ef6308b")
 	)
 	(label "S2_IN"
 		(at 245.11 43.18 0)
@@ -4207,7 +3976,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "7fc7de54-c9df-4079-a1da-cf22e72d74fe")
+		(uuid "0a58d6cd-be16-4fee-95d0-f1a947413f2a")
 	)
 	(symbol
 		(lib_id "Device:C_Polarized")
@@ -4262,10 +4031,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "c973f4c6-a73e-44c8-9ce3-5a7af51e44ac")
+			(uuid "d1d36615-69d8-435b-b1c2-c67bf4552e1e")
 		)
 		(pin "2"
-			(uuid "69cf3470-2620-43dc-b50e-1d2ac5fcf011")
+			(uuid "883a86a3-2266-4b46-88e1-1a18490443ff")
 		)
 		(instances
 			(project "low-noise-preamp"
@@ -4285,7 +4054,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "5439fc44-76ff-4257-a885-9eb01f68b5d7")
+		(uuid "bfa86392-0632-478d-9f61-044e14e1347f")
 	)
 	(wire
 		(pts
@@ -4296,7 +4065,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "7653f25f-70f6-4855-8a33-be9482d6b92a")
+		(uuid "edeadd9a-ccae-4c38-ac42-54a428efe591")
 	)
 	(label "S1_OUT"
 		(at 226.06 43.18 180)
@@ -4306,7 +4075,7 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "ed522f15-9364-4c2c-a3e8-3de3fe4ac593")
+		(uuid "8dfc5963-5bb0-4a06-8a9d-8adb16ab298f")
 	)
 	(symbol
 		(lib_id "Device:R")
@@ -4363,10 +4132,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "b39d7f11-f77d-4ca2-995e-4ea0e5ae793f")
+			(uuid "5fb5fd96-00db-468a-a2cf-8c262ba0f03a")
 		)
 		(pin "2"
-			(uuid "80150fee-b686-44f9-9cb0-e2468317544f")
+			(uuid "b48619e5-fcbf-46b9-b745-a5b1490eff77")
 		)
 		(instances
 			(project "low-noise-preamp"
@@ -4386,7 +4155,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "7fd263f1-37aa-4f21-8dfe-4795c7ba82c5")
+		(uuid "144760f3-001b-46bc-b64b-834e0a38f6f4")
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -4396,7 +4165,7 @@
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
-		(uuid "fb4efcfa-069b-4445-92fd-d41e83bc2559")
+		(uuid "4b65fefc-1cfa-4ecb-96b9-7615b977f948")
 		(property "Reference" "#PWR010"
 			(at 242.57 59.69 0)
 			(effects
@@ -4442,7 +4211,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "a3ca6272-7394-430b-84e6-033594c52a15")
+			(uuid "aea2880d-1253-4e2f-8040-49b13cc09721")
 		)
 		(instances
 			(project "low-noise-preamp"
@@ -4462,7 +4231,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "1d248070-9b43-495a-b667-b9fbf6b80aba")
+		(uuid "ce64a37b-ec08-49cc-b594-82b0ccb96a6b")
 	)
 	(wire
 		(pts
@@ -4473,7 +4242,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "3cf71c7b-6732-4293-864d-182002388624")
+		(uuid "c01cbb04-c428-4c73-a6d9-4eea848c2766")
 	)
 	(wire
 		(pts
@@ -4484,7 +4253,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "291a009e-d686-4087-b7bb-3320b111463b")
+		(uuid "7745f26f-4f4f-4a54-8489-3da4717715e6")
 	)
 	(wire
 		(pts
@@ -4495,7 +4264,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "83334d25-34f7-4258-b4be-ec216d07f2f3")
+		(uuid "a877273f-927d-4ebd-9069-919881205642")
 	)
 	(label "S2_OUT"
 		(at 280.67 45.72 0)
@@ -4505,13 +4274,13 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "6b276cf0-817d-48f9-89a7-fc4fae2c1d43")
+		(uuid "36748f56-b3a6-4b06-8b1f-61eadb4d21a9")
 	)
 	(junction
 		(at 273.05 45.72)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "7bb4596a-55bc-47b3-b544-4bad06bb0b0d")
+		(uuid "ec89808f-7636-40fb-bb7f-f84b2e237cea")
 	)
 	(symbol
 		(lib_id "Device:R")
@@ -4566,10 +4335,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "c3f3a93c-8ffb-4d1e-88a0-efeb2405e6f6")
+			(uuid "d3ae65bf-8450-4c23-9eaf-b15bbf7d4719")
 		)
 		(pin "2"
-			(uuid "2cb34040-4094-4665-b733-02e91f3f626e")
+			(uuid "9fc9f0f8-7500-485c-8f77-c6a0e3ec5767")
 		)
 		(instances
 			(project "low-noise-preamp"
@@ -4589,7 +4358,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "de2e975e-cdf4-494d-9183-0798563b02b1")
+		(uuid "af7f7258-82ad-4cad-8e30-4522e50a2a8b")
 	)
 	(wire
 		(pts
@@ -4600,7 +4369,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "073e9954-4251-49d0-8607-f3e6368e1c63")
+		(uuid "d01631cc-2578-4e35-9b81-83478443b9ef")
 	)
 	(wire
 		(pts
@@ -4611,7 +4380,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "f8f1e427-daab-4dc1-9b64-8c7af615558b")
+		(uuid "5ff864de-5669-4924-8d38-4c70c3d2e208")
 	)
 	(label "S2_FB"
 		(at 250.19 55.88 0)
@@ -4621,13 +4390,13 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "701a5657-28b6-4ce3-a655-26b0c1d77492")
+		(uuid "bf94ce05-add0-4d80-9727-a18ebe72fc63")
 	)
 	(junction
 		(at 250.19 55.88)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "3bd16d7c-3de8-4b5d-9fc2-222c51f6aa68")
+		(uuid "9b32f875-4c57-421d-a79f-9772341536c8")
 	)
 	(wire
 		(pts
@@ -4638,24 +4407,24 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "4393c5e5-98df-4c71-9f5c-b3b650ace497")
+		(uuid "46be9fac-787e-488f-8f7c-594b3c248c52")
 	)
 	(wire
 		(pts
 			(xy 250.19 60.96)
-			(xy 262.89 60.96)
+			(xy 280.67 60.96)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ba404463-01ff-43c0-9437-30e90827dee2")
+		(uuid "99ac3717-7bca-4574-af6a-2d08b21d8cce")
 	)
 	(junction
 		(at 250.19 60.96)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "90cd6b66-dd96-453d-9966-18cbf1b3f6c5")
+		(uuid "a999d932-b617-46ef-b08c-a8052da067e8")
 	)
 	(symbol
 		(lib_id "Device:R")
@@ -4712,10 +4481,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "f12a36b6-9a87-4d04-8911-026f0ccb4f2f")
+			(uuid "604f4a8a-8923-4d32-b1e7-6852a04b5bc6")
 		)
 		(pin "2"
-			(uuid "9c7fddc1-4e62-462f-a32f-007aa98af119")
+			(uuid "c193ecb5-021d-4663-b318-9df3593584bd")
 		)
 		(instances
 			(project "low-noise-preamp"
@@ -4728,7 +4497,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 262.89 64.77 0)
+		(at 280.67 64.77 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4736,7 +4505,7 @@
 		(dnp no)
 		(uuid "d150f8b2-e063-52e0-a2cf-9ad72a0b99f5")
 		(property "Reference" "R7"
-			(at 265.43 63.5 0)
+			(at 283.21 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4745,7 +4514,7 @@
 			)
 		)
 		(property "Value" "100 1%"
-			(at 265.43 66.04 0)
+			(at 283.21 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4754,7 +4523,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 262.89 64.77 0)
+			(at 280.67 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4763,7 +4532,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 262.89 64.77 0)
+			(at 280.67 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4772,7 +4541,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 262.89 64.77 0)
+			(at 280.67 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4781,10 +4550,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "b646b0e4-4614-4d09-a74d-74fffdb337b0")
+			(uuid "732ed708-aeec-4cf3-a15a-2962912aa882")
 		)
 		(pin "2"
-			(uuid "22d620c7-2fab-4cc6-90f6-0be538316f69")
+			(uuid "c8517056-5864-4cd9-8b33-256a17b2dddd")
 		)
 		(instances
 			(project "low-noise-preamp"
@@ -4796,8 +4565,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_SP3T")
-		(at 257.81 78.74 90)
+		(lib_id "Switch:SW_DPDT_x2")
+		(at 250.19 76.2 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4805,7 +4574,7 @@
 		(dnp no)
 		(uuid "db52c533-162b-5a3a-be6e-d2d6a9dd7bdc")
 		(property "Reference" "SW1"
-			(at 265.43 77.47 270)
+			(at 246.38 90.17 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4813,8 +4582,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "GAIN 40/60/80 dB"
-			(at 265.43 80.01 270)
+		(property "Value" "60 dB"
+			(at 246.38 92.71 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4822,8 +4591,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Button_Switch_THT:SW_Slide_SP3T_Straight_CK_OS103012MU1QP1"
-			(at 257.81 78.74 270)
+		(property "Footprint" "low-noise-preamp:SW_Slide_DPDT_MSS-22D18"
+			(at 250.19 76.2 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4832,7 +4601,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 257.81 78.74 270)
+			(at 250.19 76.2 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4840,8 +4609,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Switch, three position, single pole triple throw, 3 position switch, SP3T"
-			(at 257.81 78.74 270)
+		(property "Description" "Switch, dual pole double throw, separate symbols"
+			(at 250.19 76.2 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4850,22 +4619,91 @@
 			)
 		)
 		(pin "1"
-			(uuid "733d7b41-86df-4bd3-9565-4eba63947ab9")
+			(uuid "57cdd7ab-dd38-40af-a9a2-412949c2d688")
 		)
 		(pin "2"
-			(uuid "f5500dc9-7d0b-43de-a54e-b80adbb97033")
+			(uuid "ee7ea2ff-8e78-4fff-b73c-5b5c414e976d")
 		)
 		(pin "3"
-			(uuid "c8393edc-1943-4382-813d-d7ac426a3254")
-		)
-		(pin "4"
-			(uuid "1149b44c-eb73-4070-9257-80d3adc13622")
+			(uuid "7cf7b93b-e0ca-4837-a355-9b201963a104")
 		)
 		(instances
 			(project "low-noise-preamp"
 				(path "/16ae00e3-0cbd-49d0-b1fc-f249dbaeb0d0"
 					(reference "SW1")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_DPDT_x2")
+		(at 262.89 76.2 270)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "40149268-11f8-500d-ae1b-e95f6833531d")
+		(property "Reference" "SW1"
+			(at 259.08 90.17 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "60 dB"
+			(at 259.08 92.71 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "low-noise-preamp:SW_Slide_DPDT_MSS-22D18"
+			(at 262.89 76.2 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 262.89 76.2 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Switch, dual pole double throw, separate symbols"
+			(at 262.89 76.2 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "e9dea5e8-7e26-4813-98b8-4469aa31075e")
+		)
+		(pin "5"
+			(uuid "9cb7c524-874d-4b99-8091-3c3a406d1430")
+		)
+		(pin "6"
+			(uuid "fbe80a43-53d2-4d32-87ce-1b8201b430f1")
+		)
+		(instances
+			(project "low-noise-preamp"
+				(path "/16ae00e3-0cbd-49d0-b1fc-f249dbaeb0d0"
+					(reference "SW1")
+					(unit 2)
 				)
 			)
 		)
@@ -4879,109 +4717,57 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "d44da9e3-9c58-4824-9273-ddacba2b6d2c")
+		(uuid "a5c15120-299c-444e-b5fb-613897f1c445")
 	)
 	(wire
 		(pts
 			(xy 250.19 71.12)
-			(xy 255.27 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b6226fd7-4f87-45a7-b169-a9eb6edb3bbb")
-	)
-	(wire
-		(pts
-			(xy 255.27 71.12)
-			(xy 255.27 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1e18deba-d8cd-4094-a051-a19a735f8acb")
-	)
-	(wire
-		(pts
-			(xy 262.89 68.58)
 			(xy 262.89 71.12)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f306ef1f-683d-4f0f-a94d-2a6812e37a69")
+		(uuid "22b463ff-78a1-475d-ab7b-b967fda41ffb")
 	)
-	(wire
-		(pts
-			(xy 262.89 71.12)
-			(xy 257.81 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2656d318-73c0-4581-82e4-25a7f61cc268")
-	)
-	(wire
-		(pts
-			(xy 257.81 71.12)
-			(xy 257.81 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1522b498-c2bf-4a9a-98ac-ec0cd866c7af")
+	(junction
+		(at 250.19 71.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "be0b6ee1-193e-427f-aa41-9e8c7179140d")
 	)
 	(label "G_X10"
-		(at 250.19 71.12 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "3e8f4204-0ad1-44ed-8bb2-2f7b5aabb68c")
-	)
-	(label "G_X100"
-		(at 262.89 71.12 0)
+		(at 251.46 71.12 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "706de10b-0e18-44cf-bd9d-d328872b8c29")
-	)
-	(no_connect
-		(at 260.35 73.66)
-		(uuid "8d82c340-c800-4257-8b99-8aa24ace8d2a")
+		(uuid "301158a5-ff1d-429f-ab1d-d3338288e009")
 	)
 	(wire
 		(pts
-			(xy 257.81 83.82)
-			(xy 257.81 86.36)
+			(xy 252.73 81.28)
+			(xy 252.73 83.82)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c26bdeee-9e5e-42d7-8fd6-935f541d10f9")
+		(uuid "d93c0b9f-0872-4503-9ea9-511b2afc6bf6")
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 257.81 86.36 0)
+		(at 252.73 83.82 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
-		(uuid "db4d8285-4fd8-4687-a698-a7a23c4cccf9")
+		(uuid "f8153c8b-d241-43ae-8b43-d2efe0d3eca0")
 		(property "Reference" "#PWR011"
-			(at 257.81 92.71 0)
+			(at 252.73 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4990,7 +4776,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 257.81 90.17 0)
+			(at 252.73 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4998,7 +4784,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 257.81 86.36 0)
+			(at 252.73 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5007,7 +4793,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 257.81 86.36 0)
+			(at 252.73 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5016,7 +4802,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 257.81 86.36 0)
+			(at 252.73 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5025,7 +4811,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "750ded53-3d9d-472b-a8a9-d88a0f8c03ea")
+			(uuid "952a7b00-66fb-473b-a3fe-b0b2f439a649")
 		)
 		(instances
 			(project "low-noise-preamp"
@@ -5036,16 +4822,442 @@
 			)
 		)
 	)
-	(text "C2/R4: 0.48 Hz high-pass blocks U1's DC offset.\nSW1 grounds R6 (x10, 60 dB), R7 (x101, 80 dB), or nothing (x1, 40 dB)."
+	(wire
+		(pts
+			(xy 265.43 81.28)
+			(xy 265.43 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bce5d1c9-e65f-48ac-b725-f0be2d61a6a2")
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 265.43 83.82 0)
+		(unit 1)
 		(exclude_from_sim no)
-		(at 200.66 93.98 0)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "b307a187-9611-42f2-b57f-8aa9c25d6d08")
+		(property "Reference" "#PWR012"
+			(at 265.43 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 265.43 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 265.43 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 265.43 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 265.43 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2b9547d9-7f0e-440f-b6f1-b0d82f6db067")
+		)
+		(instances
+			(project "low-noise-preamp"
+				(path "/16ae00e3-0cbd-49d0-b1fc-f249dbaeb0d0"
+					(reference "#PWR012")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(no_connect
+		(at 247.65 81.28)
+		(uuid "a5fe9bf0-ad7f-4d01-bc99-a0aa44654b16")
+	)
+	(no_connect
+		(at 260.35 81.28)
+		(uuid "b0a755cb-d403-4390-9038-04ca03a50457")
+	)
+	(symbol
+		(lib_id "Switch:SW_DPDT_x2")
+		(at 280.67 76.2 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9b7a40d0-021b-5f96-831f-4f4a5bef822d")
+		(property "Reference" "SW3"
+			(at 276.86 90.17 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "80 dB"
+			(at 276.86 92.71 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "low-noise-preamp:SW_Slide_DPDT_MSS-22D18"
+			(at 280.67 76.2 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 280.67 76.2 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Switch, dual pole double throw, separate symbols"
+			(at 280.67 76.2 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f520abcc-83c2-4c05-8107-863ba784f035")
+		)
+		(pin "2"
+			(uuid "1cbeab07-c100-432f-b631-4f5f36aac0dc")
+		)
+		(pin "3"
+			(uuid "3423b453-9047-4601-8c67-d53eff0e473f")
+		)
+		(instances
+			(project "low-noise-preamp"
+				(path "/16ae00e3-0cbd-49d0-b1fc-f249dbaeb0d0"
+					(reference "SW3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_DPDT_x2")
+		(at 293.37 76.2 270)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4c9ace75-b5f2-594c-bb85-9e9e0b427605")
+		(property "Reference" "SW3"
+			(at 289.56 90.17 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "80 dB"
+			(at 289.56 92.71 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "low-noise-preamp:SW_Slide_DPDT_MSS-22D18"
+			(at 293.37 76.2 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 293.37 76.2 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Switch, dual pole double throw, separate symbols"
+			(at 293.37 76.2 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "0f8489fb-175f-4f92-a176-ff0e901f118c")
+		)
+		(pin "5"
+			(uuid "63e6337b-3cbf-4461-9b73-00fffc3689cb")
+		)
+		(pin "6"
+			(uuid "def3f420-261a-4a98-ad1c-56c67c823e4e")
+		)
+		(instances
+			(project "low-noise-preamp"
+				(path "/16ae00e3-0cbd-49d0-b1fc-f249dbaeb0d0"
+					(reference "SW3")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 280.67 68.58)
+			(xy 280.67 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "acd78381-1b1b-44be-91bd-66a2dcc6a644")
+	)
+	(wire
+		(pts
+			(xy 280.67 71.12)
+			(xy 293.37 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5b065763-b2b6-400c-84fe-bec2bc1d451b")
+	)
+	(junction
+		(at 280.67 71.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "25cfdc95-83af-4936-a602-3bbdf44c8720")
+	)
+	(label "G_X100"
+		(at 281.94 71.12 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "cdce3433-61fc-4a1f-865a-482898baca0d")
+	)
+	(wire
+		(pts
+			(xy 283.21 81.28)
+			(xy 283.21 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "610485d3-9fe3-4cf4-8bcd-978b61aaa4cf")
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 283.21 83.82 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "dd4bc6be-553a-4bc9-b217-289119841c5b")
+		(property "Reference" "#PWR013"
+			(at 283.21 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 283.21 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 283.21 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 283.21 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 283.21 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0490d396-0e0c-488b-b63a-31dce0f5155d")
+		)
+		(instances
+			(project "low-noise-preamp"
+				(path "/16ae00e3-0cbd-49d0-b1fc-f249dbaeb0d0"
+					(reference "#PWR013")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 295.91 81.28)
+			(xy 295.91 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "515df7e5-0053-418f-87ba-e3fcf9ea53bb")
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 295.91 83.82 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "06cc2e1b-8ef5-45dd-a775-6ea5faf31226")
+		(property "Reference" "#PWR014"
+			(at 295.91 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 295.91 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 295.91 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 295.91 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 295.91 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f948ea31-3c5c-49ef-85a0-8a224f7c1b1b")
+		)
+		(instances
+			(project "low-noise-preamp"
+				(path "/16ae00e3-0cbd-49d0-b1fc-f249dbaeb0d0"
+					(reference "#PWR014")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(no_connect
+		(at 278.13 81.28)
+		(uuid "8412a7dc-5aff-4ad6-8be6-7d84d212dd4c")
+	)
+	(no_connect
+		(at 290.83 81.28)
+		(uuid "82665a9f-b87a-43dc-bfd6-ba8b8e7b18e9")
+	)
+	(text "C2/R4: 0.48 Hz high-pass blocks U1's DC offset.\nSW1 on: x10 (60 dB). SW3 on: x101 (80 dB). Both off: x1 (40 dB). Both on: ~x110."
+		(exclude_from_sim no)
+		(at 200.66 96.52 0)
 		(effects
 			(font
 				(size 1.016 1.016)
 			)
 			(justify left)
 		)
-		(uuid "487c73d6-0edc-444c-9f70-f795bff54b1e")
+		(uuid "f5f8cc68-f6fc-4c5a-91e5-925fc22f3c9b")
 	)
 	(rectangle
 		(start 15.24 106.68)
@@ -5057,7 +5269,7 @@
 		(fill
 			(type none)
 		)
-		(uuid "ff615da9-5426-4130-bfdf-e2b3d81c8080")
+		(uuid "b4542886-ec4f-4957-8ff0-f6c66d016598")
 	)
 	(text "4  Filter and output: OPA1612 B"
 		(exclude_from_sim no)
@@ -5068,7 +5280,7 @@
 			)
 			(justify left)
 		)
-		(uuid "c8865bac-089b-4741-8666-b8eca0736dde")
+		(uuid "98dca5e0-86d9-4461-9275-2e458d74ebcc")
 	)
 	(symbol
 		(lib_id "Device:C")
@@ -5123,10 +5335,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "2aafba4e-d0cd-43c7-92a0-ce1090be576d")
+			(uuid "48a2aa56-523d-40a4-9714-10bd2b33eb79")
 		)
 		(pin "2"
-			(uuid "fa95cc9b-8222-432c-9402-51aea58bade1")
+			(uuid "63382c14-919b-4023-bbcd-4fdf7f090d55")
 		)
 		(instances
 			(project "low-noise-preamp"
@@ -5146,7 +5358,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "b7275f35-e3d6-4eda-a1bf-2b6a11cc06b8")
+		(uuid "5c1f8b44-a6a0-4edd-a968-2826bd8ebb01")
 	)
 	(label "S2_OUT"
 		(at 22.86 139.7 0)
@@ -5156,7 +5368,7 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "f500074c-a594-46a0-a3c1-7167760fa773")
+		(uuid "ab8da5a3-9dbe-45bc-9e6e-693b2afbf03e")
 	)
 	(symbol
 		(lib_id "Device:R")
@@ -5211,10 +5423,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "403d8eba-20fc-4ee3-96a9-65334be0a839")
+			(uuid "df816fc1-19bc-4047-8e8e-306f914d55e6")
 		)
 		(pin "2"
-			(uuid "88d9a7ec-a0cf-4e3e-936b-cc34ab509a20")
+			(uuid "b9b28bad-ed3c-4fcc-9503-ae8e1f9e2cdd")
 		)
 		(instances
 			(project "low-noise-preamp"
@@ -5278,10 +5490,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "cd871355-fb58-49e8-a35f-f4e17aa30e71")
+			(uuid "798baaa0-e3ee-4de1-89ee-a0466851866d")
 		)
 		(pin "2"
-			(uuid "f8e4522a-e8d9-41cb-878c-b71ba519c871")
+			(uuid "6991e39f-f885-4a5f-bfa7-0ef91f8521c9")
 		)
 		(instances
 			(project "low-noise-preamp"
@@ -5347,13 +5559,13 @@
 			)
 		)
 		(pin "5"
-			(uuid "e795f0b2-a0bb-450c-8b62-a1d0dfb633c5")
+			(uuid "254c9784-431f-4596-b258-40d5490590a7")
 		)
 		(pin "6"
-			(uuid "b2bf4100-3b8f-43e1-baac-1b0afd6a1a90")
+			(uuid "777a8495-ed4a-4bb7-b462-0124f8e0bd8d")
 		)
 		(pin "7"
-			(uuid "bfa61ab6-d403-46a7-bc5a-8e2f404d21c8")
+			(uuid "9a0d277c-b3f9-40cc-b915-cc4d1230afc9")
 		)
 		(instances
 			(project "low-noise-preamp"
@@ -5373,7 +5585,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "670797c0-357e-4967-bd2f-939b597390f2")
+		(uuid "818ea870-d1bd-42c5-b679-ae63bf710411")
 	)
 	(wire
 		(pts
@@ -5384,7 +5596,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "4f18a366-8ec6-4792-94c5-e8221dd2c02a")
+		(uuid "1d44d7b2-7de1-4209-a3e7-8cad581ba185")
 	)
 	(wire
 		(pts
@@ -5395,7 +5607,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "89146cd7-2c0b-4dd8-8eb6-8b18a251a3fe")
+		(uuid "82448d07-2705-426b-b207-a5121e89a972")
 	)
 	(label "F_HP"
 		(at 35.56 139.7 0)
@@ -5405,7 +5617,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "d679acae-8ab7-47b8-b41c-9a7943a9ff4b")
+		(uuid "6ec71fe8-f32b-4648-b4c4-a62b679fc4f8")
 	)
 	(label "F_MID"
 		(at 55.88 139.7 0)
@@ -5415,7 +5627,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "9a579302-80ab-460a-aab7-6f41c0974277")
+		(uuid "6df4cf31-0633-4e45-831e-621581b08c30")
 	)
 	(label "F_IN"
 		(at 76.2 139.7 0)
@@ -5425,7 +5637,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "f435e165-6445-4d7c-b3be-e434c2b2cf29")
+		(uuid "9fbc22f2-5574-48f0-8ffe-224fe2a3fb3b")
 	)
 	(symbol
 		(lib_id "Device:R")
@@ -5482,10 +5694,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "fdbaa8ba-97be-4c4f-b001-80a44194913f")
+			(uuid "03cb9a08-5433-412a-8e78-ee5d0d553727")
 		)
 		(pin "2"
-			(uuid "f0041b26-6c60-42dd-9662-f52ce28de250")
+			(uuid "a3355790-f60f-4f34-81e3-e446e9af1159")
 		)
 		(instances
 			(project "low-noise-preamp"
@@ -5505,7 +5717,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "49d50e1d-73ba-4e7d-b46d-cfa3ae3b18b8")
+		(uuid "24e1a1f5-79d2-4e81-a386-e634e34e8f4c")
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -5515,8 +5727,8 @@
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
-		(uuid "42a3b19f-7cdd-4de8-96ca-45f06cc4600c")
-		(property "Reference" "#PWR012"
+		(uuid "a038f8c1-b2c4-4ce5-9d88-2295878c4d66")
+		(property "Reference" "#PWR015"
 			(at 40.64 156.21 0)
 			(effects
 				(font
@@ -5561,12 +5773,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "bc3daf82-261b-42a3-9417-dcd07069696d")
+			(uuid "33c04aaa-be15-4e66-91b5-a77a7f809251")
 		)
 		(instances
 			(project "low-noise-preamp"
 				(path "/16ae00e3-0cbd-49d0-b1fc-f249dbaeb0d0"
-					(reference "#PWR012")
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -5627,10 +5839,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "ff88f9b8-ef3d-4972-8426-bd7657125b60")
+			(uuid "c2d0fd41-6671-4907-b121-d64074a00977")
 		)
 		(pin "2"
-			(uuid "fb872131-a598-4ed6-901d-ee87a54d19ea")
+			(uuid "0e100e2e-d958-4192-886e-556cdeb3ec77")
 		)
 		(instances
 			(project "low-noise-preamp"
@@ -5650,7 +5862,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "2b2c329a-7da1-4dc8-8ed6-389d12b636a0")
+		(uuid "a76f0fc3-d3c6-4464-98b1-3f7047e514af")
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -5660,8 +5872,8 @@
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
-		(uuid "6e4f81f6-8b25-4b27-94dd-9a752d1d74a5")
-		(property "Reference" "#PWR013"
+		(uuid "373debef-90ac-4ced-8a40-9ddc0f5cfaa3")
+		(property "Reference" "#PWR016"
 			(at 81.28 156.21 0)
 			(effects
 				(font
@@ -5706,12 +5918,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "06860ff2-4215-4507-9f90-e724f55033a2")
+			(uuid "3b1fad56-9d78-48f9-9f71-d41aa2dcce53")
 		)
 		(instances
 			(project "low-noise-preamp"
 				(path "/16ae00e3-0cbd-49d0-b1fc-f249dbaeb0d0"
-					(reference "#PWR013")
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -5772,10 +5984,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "02b0bc7c-383c-4891-8dce-f0f1cd41ef42")
+			(uuid "65591da2-46c3-40c2-9a4a-b066809a7e27")
 		)
 		(pin "2"
-			(uuid "21bc06b2-dce3-43af-b18e-6c91f556f9a3")
+			(uuid "da9f895e-d75b-4ae3-9ca2-b0d87d53359e")
 		)
 		(instances
 			(project "low-noise-preamp"
@@ -5795,7 +6007,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "f6c14a07-4451-4f65-935d-2c87b8977c72")
+		(uuid "1ccf1593-346d-4dcb-a219-569c82f8849e")
 	)
 	(wire
 		(pts
@@ -5806,7 +6018,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "fb40caeb-ebf3-4d96-a136-21e2c602bd85")
+		(uuid "32b46373-828a-4b01-b336-156739cb77f8")
 	)
 	(wire
 		(pts
@@ -5817,7 +6029,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "2c72fda5-77ff-4879-9f2e-a8f4b0299c52")
+		(uuid "fd5caf3c-9f51-49a6-926b-29854c6d6bc4")
 	)
 	(wire
 		(pts
@@ -5828,7 +6040,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "8b57ee56-8bf9-400c-a2dd-bbb6d85a99d8")
+		(uuid "a1495383-c3a2-4a42-b82f-ec0a2f67f00d")
 	)
 	(label "F_OUT"
 		(at 66.04 124.46 0)
@@ -5838,7 +6050,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "7e5768a9-9097-462a-b04e-3c6556b3f536")
+		(uuid "4eb7830f-8609-4cf6-9a0c-d768c37169f4")
 	)
 	(wire
 		(pts
@@ -5849,7 +6061,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "ff6a688b-8999-4822-b544-3f6bcc6665d1")
+		(uuid "534dd696-d00e-4b32-b712-7938d0b16599")
 	)
 	(wire
 		(pts
@@ -5860,7 +6072,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "f065a99e-fb87-4701-b5a0-cef2a9f1f724")
+		(uuid "fa5f8d46-37fb-4eff-95a6-41cb54aa9a94")
 	)
 	(wire
 		(pts
@@ -5871,7 +6083,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "f1ac08d9-76cb-4fbc-84a2-e03c7bb76973")
+		(uuid "04af2de5-a99b-4c2f-a366-a20298e61d8c")
 	)
 	(wire
 		(pts
@@ -5882,7 +6094,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "10fdc663-508b-4315-b4bf-e5480ae74256")
+		(uuid "838a0ed2-19f3-40f1-80b2-e49e256ac7a0")
 	)
 	(symbol
 		(lib_id "Device:R")
@@ -5937,10 +6149,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "52d09b81-6995-462b-8907-ee179488d428")
+			(uuid "4573bd91-c226-4c25-a08e-2bf4fe0c067a")
 		)
 		(pin "2"
-			(uuid "5109e57d-22ca-49de-b1ca-bf6d706e711b")
+			(uuid "fed28b03-8902-4d5d-9658-9832b40e3c8c")
 		)
 		(instances
 			(project "low-noise-preamp"
@@ -5960,7 +6172,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "1145f9c9-e852-46a7-b94d-146061f19a43")
+		(uuid "5d126b86-d928-4306-a7b5-7c1c7eb795d5")
 	)
 	(symbol
 		(lib_id "Connector:Conn_Coaxial")
@@ -6017,10 +6229,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "b07db84a-80f0-453d-bbbc-8adf8f3cfe14")
+			(uuid "96a45d97-6392-4d59-833c-94b33fd942e4")
 		)
 		(pin "2"
-			(uuid "c2465242-e297-429e-8e76-87e40ffce182")
+			(uuid "13951245-05b2-420f-ac53-e5824ca80740")
 		)
 		(instances
 			(project "low-noise-preamp"
@@ -6040,7 +6252,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "a604f0dc-3535-44ed-93bc-bb37b2478fc7")
+		(uuid "80ae570d-c933-4f34-87da-1a7b66952f73")
 	)
 	(label "OUT"
 		(at 129.54 142.24 0)
@@ -6050,7 +6262,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "9f4f26fa-0e62-4f6c-b557-fd985c8c0957")
+		(uuid "5d0b456f-47f6-4c2b-b93d-939a0c14481c")
 	)
 	(wire
 		(pts
@@ -6061,7 +6273,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "e85f475c-db1f-465a-8b05-4e5389da0033")
+		(uuid "c30c0fd1-4932-4087-8c1a-936ae3f19e66")
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -6071,8 +6283,8 @@
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
-		(uuid "fd05ea9b-fd48-4b71-a35f-8771d69f8ec7")
-		(property "Reference" "#PWR014"
+		(uuid "21ca456c-188e-4f38-827b-8f648d762f36")
+		(property "Reference" "#PWR017"
 			(at 139.7 156.21 0)
 			(effects
 				(font
@@ -6117,12 +6329,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "0af3b8c3-d46a-458e-be95-d7d4b3fdc2ff")
+			(uuid "2837e209-b5f0-446d-8fef-ff17cf22a666")
 		)
 		(instances
 			(project "low-noise-preamp"
 				(path "/16ae00e3-0cbd-49d0-b1fc-f249dbaeb0d0"
-					(reference "#PWR014")
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -6132,31 +6344,31 @@
 		(at 40.64 139.7)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "d049c0b3-7225-47a6-9f04-ac5e649b58fc")
+		(uuid "121135cc-ddff-48d4-b441-27a26ee06309")
 	)
 	(junction
 		(at 60.96 139.7)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "0d3dcfeb-15a1-4bea-8465-70c796bf2bb7")
+		(uuid "471a1afc-a690-4153-8a48-770b106d5815")
 	)
 	(junction
 		(at 81.28 139.7)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "b66f1ed8-29d1-40d2-9212-fa1f3f12b651")
+		(uuid "c3c8854b-eb1f-4f3e-96ba-03a7c22d3ac6")
 	)
 	(junction
 		(at 114.3 142.24)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "de8311e2-9afa-401c-bc6e-ad13c82f2f55")
+		(uuid "ba6d6765-e5c5-444a-9b93-ea29e0091aaa")
 	)
 	(junction
 		(at 116.84 142.24)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "2afe55f2-a933-4fd1-b284-55e1c224e02f")
+		(uuid "6e3099c5-2af7-41da-825c-1819cd8bc87d")
 	)
 	(text "C3/R8: 10 Hz high-pass. R9/R10/C4/C5: unity-gain Sallen-Key, Butterworth, 100 kHz.\nNoise bandwidth = 1.11 x 100 kHz, so divide RMS readings by 1.05.\nR11 isolates the cable capacitance; the scope input is 1 Mohm."
 		(exclude_from_sim no)
@@ -6167,7 +6379,7 @@
 			)
 			(justify left)
 		)
-		(uuid "b271a331-ec06-4e06-89f2-8665eefc9e62")
+		(uuid "dccd7375-88d3-44b4-b90b-6b25c13fa5cd")
 	)
 	(rectangle
 		(start 180.34 106.68)
@@ -6179,7 +6391,7 @@
 		(fill
 			(type none)
 		)
-		(uuid "a3ef0e7b-6555-42b5-9e98-c7b82f881d64")
+		(uuid "cee2e091-7af9-4537-acb2-f10564f8e40a")
 	)
 	(text "5  Power: 2 x 9 V battery, switch, RC filter"
 		(exclude_from_sim no)
@@ -6190,7 +6402,7 @@
 			)
 			(justify left)
 		)
-		(uuid "9ed9ac27-834f-4a62-983d-c74afee017f8")
+		(uuid "854441f3-cf0a-419f-a669-470435113a6b")
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
@@ -6248,10 +6460,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "1fab4201-b349-4afb-9953-450ddcc6da82")
+			(uuid "f9bc63cf-8477-46de-b465-8ff930d0848e")
 		)
 		(pin "2"
-			(uuid "4133ee76-95ef-45fb-b0c9-201deab7294f")
+			(uuid "54325fc5-26bc-4fdd-9eb6-0123cf29716e")
 		)
 		(instances
 			(project "low-noise-preamp"
@@ -6318,10 +6530,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "895b2cf2-f0b5-4df4-8e8e-351b2bc9f9eb")
+			(uuid "d38a5c3e-9ecf-418c-9f02-2b49621f072d")
 		)
 		(pin "2"
-			(uuid "dcb3d11b-24a1-4708-a977-8583ab1f5118")
+			(uuid "76b107f2-907f-43be-94c0-050f1846b075")
 		)
 		(instances
 			(project "low-noise-preamp"
@@ -6359,7 +6571,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Button_Switch_THT:SW_CK_JS202011CQN_DPDT_Straight"
+		(property "Footprint" "low-noise-preamp:SW_Slide_DPDT_MSS-22D18"
 			(at 215.9 124.46 0)
 			(effects
 				(font
@@ -6387,13 +6599,13 @@
 			)
 		)
 		(pin "1"
-			(uuid "4f83e630-6cfd-40ac-9a5f-21adf143238d")
+			(uuid "8f2db684-a697-4fcb-b100-9a3835308d34")
 		)
 		(pin "2"
-			(uuid "4b24d739-460f-4ad5-9276-5df88e8280e0")
+			(uuid "6826b566-3745-4c98-b91b-ebb1596d9667")
 		)
 		(pin "3"
-			(uuid "0a574c16-4a3f-4ff0-8796-888a84244c8c")
+			(uuid "40501a24-579c-471b-9bce-83bbef64ac80")
 		)
 		(instances
 			(project "low-noise-preamp"
@@ -6431,7 +6643,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Button_Switch_THT:SW_CK_JS202011CQN_DPDT_Straight"
+		(property "Footprint" "low-noise-preamp:SW_Slide_DPDT_MSS-22D18"
 			(at 215.9 149.86 0)
 			(effects
 				(font
@@ -6459,13 +6671,13 @@
 			)
 		)
 		(pin "4"
-			(uuid "23fa1040-b5ce-40c5-9e03-5f2057699692")
+			(uuid "7fb97553-c25f-47a4-9944-2396fcbcf43d")
 		)
 		(pin "5"
-			(uuid "3cb21345-e69b-4371-8522-14978259dc2e")
+			(uuid "d2e2a12b-38e9-4f01-8858-30179bd61fe6")
 		)
 		(pin "6"
-			(uuid "9b87ac32-e081-4cba-ac81-932fc8ca5fb9")
+			(uuid "ec20eb2d-ebbb-4dd6-b7fe-3ed00fcfc764")
 		)
 		(instances
 			(project "low-noise-preamp"
@@ -6485,7 +6697,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "58e2e5e1-b668-42e4-bf5f-0196cdbf4c68")
+		(uuid "27aa534c-3aee-4953-81c2-b6ed64cb43e0")
 	)
 	(wire
 		(pts
@@ -6496,7 +6708,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "3f8f7a05-d368-478d-b1a1-c1348ed482f2")
+		(uuid "91576504-38f6-47f5-82c3-f8f603515411")
 	)
 	(label "VBAT+"
 		(at 199.39 124.46 0)
@@ -6506,7 +6718,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "0197e412-b47c-4cf3-9d63-d69df8f025fd")
+		(uuid "7dc7f45e-c963-43c0-a90d-db5b7fe23528")
 	)
 	(label "VBAT-"
 		(at 199.39 149.86 0)
@@ -6516,7 +6728,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "86a7116d-ba93-4309-91d9-6d1990bfe4fd")
+		(uuid "d2349006-1ad6-40a9-8100-017c1d337f1a")
 	)
 	(wire
 		(pts
@@ -6527,7 +6739,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "feacb42a-ef56-459b-94a3-265b07e3d6b2")
+		(uuid "6db2a537-01a5-4e0b-98fe-f6863c506d1f")
 	)
 	(wire
 		(pts
@@ -6538,7 +6750,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "1cca2a32-f0a6-40df-8174-de14f8edf773")
+		(uuid "b18de353-b050-4b17-a1c8-19e75c6dc2d5")
 	)
 	(wire
 		(pts
@@ -6549,7 +6761,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "b428d335-fddf-420d-9d58-9c91b31847a4")
+		(uuid "17b5e6e1-12eb-4c8c-ae39-34e82da97b2c")
 	)
 	(wire
 		(pts
@@ -6560,13 +6772,13 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "53ddda8b-00d9-4709-982c-1bee38992e77")
+		(uuid "f82caff2-3938-4edf-bee0-0b15fb2a3bb5")
 	)
 	(junction
 		(at 198.12 137.16)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "fc9dcfbe-6acd-47da-99c4-5ef95be4cc35")
+		(uuid "686c918f-8084-49b4-ba70-4410c1f7e2be")
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -6576,8 +6788,8 @@
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
-		(uuid "bb8c2186-1aad-46bf-ad48-1994be112201")
-		(property "Reference" "#PWR015"
+		(uuid "3cbcaca7-c2f6-45f6-8f6d-7ac8d61586ea")
+		(property "Reference" "#PWR018"
 			(at 203.2 143.51 0)
 			(effects
 				(font
@@ -6622,12 +6834,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "80803442-060e-4b59-9a9c-a42d41b56cbd")
+			(uuid "82fbad54-d53a-4a69-8ab0-2a1dba4064e4")
 		)
 		(instances
 			(project "low-noise-preamp"
 				(path "/16ae00e3-0cbd-49d0-b1fc-f249dbaeb0d0"
-					(reference "#PWR015")
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -6635,11 +6847,11 @@
 	)
 	(no_connect
 		(at 220.98 127)
-		(uuid "75cbabdd-6811-41e9-8505-6ee94afaf35a")
+		(uuid "1141c3f4-bbd7-4ed9-9735-d44ecde5b690")
 	)
 	(no_connect
 		(at 220.98 152.4)
-		(uuid "9e3f3392-2ce5-48bd-83a0-96e7a93cd56b")
+		(uuid "7b366273-9cd5-46e2-9e6e-e1c1f8775cfd")
 	)
 	(symbol
 		(lib_id "Device:R")
@@ -6658,7 +6870,7 @@
 				)
 			)
 		)
-		(property "Value" "10"
+		(property "Value" "47"
 			(at 233.68 124.46 270)
 			(effects
 				(font
@@ -6694,10 +6906,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "6b4c3288-3361-4589-8839-933ba0291fcf")
+			(uuid "f2363269-5691-4030-9c67-03ecf00836f1")
 		)
 		(pin "2"
-			(uuid "e200ad28-5350-4371-b23e-4cd7d5198437")
+			(uuid "8b482c6b-051a-4d75-9f42-df4e4fcd190b")
 		)
 		(instances
 			(project "low-noise-preamp"
@@ -6725,7 +6937,7 @@
 				)
 			)
 		)
-		(property "Value" "10"
+		(property "Value" "47"
 			(at 233.68 149.86 270)
 			(effects
 				(font
@@ -6761,10 +6973,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "d1c71d4c-421f-4348-83ab-bf85448e3770")
+			(uuid "bdac375f-e629-4bab-a19f-94d6624bd3b0")
 		)
 		(pin "2"
-			(uuid "03b65687-b011-4a4f-8738-8bb9defd1e68")
+			(uuid "399f7bc6-bd7b-4f1b-9ca2-75909c4ce44f")
 		)
 		(instances
 			(project "low-noise-preamp"
@@ -6784,7 +6996,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "5e104d66-d663-42af-82a6-bbefced6d929")
+		(uuid "fd0c2064-646a-4365-9ad6-cab2e6765e29")
 	)
 	(wire
 		(pts
@@ -6795,7 +7007,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "ff6c2215-3a81-4ede-9daf-0362693bf9c2")
+		(uuid "e3330917-0834-45c4-953d-91cf27bffe9f")
 	)
 	(label "V+SW"
 		(at 222.25 121.92 0)
@@ -6805,7 +7017,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "a88485ae-842a-4777-8368-bf7d6afd9688")
+		(uuid "453b7195-a225-4650-b86f-1613bfa2f9a4")
 	)
 	(label "V-SW"
 		(at 222.25 147.32 0)
@@ -6815,7 +7027,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "9465e2d2-fe9e-4f4c-9863-abfe691aaac8")
+		(uuid "894b4604-0f61-4ae6-b02f-1f640bf7b43e")
 	)
 	(wire
 		(pts
@@ -6826,7 +7038,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "3e033693-c993-40e1-b8c4-9832cccca24c")
+		(uuid "d2cb881e-1f3e-4e46-a959-f9f707aa1556")
 	)
 	(wire
 		(pts
@@ -6837,7 +7049,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "9342514a-a0c5-4b36-a4b9-4c4f710a7ab2")
+		(uuid "9fe944f7-cd00-4a5d-a291-cfcf88969867")
 	)
 	(symbol
 		(lib_id "Device:C_Polarized")
@@ -6894,10 +7106,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "16abf530-6dcc-4024-abdf-c2edac7fb366")
+			(uuid "ae4814f0-872f-4f90-96f3-8cc43fe339ef")
 		)
 		(pin "2"
-			(uuid "71387c3a-40f5-4fd8-b2b4-803b6ba58262")
+			(uuid "f46f343b-7d26-4419-ac00-0b51df0d73d0")
 		)
 		(instances
 			(project "low-noise-preamp"
@@ -6917,7 +7129,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "b312e677-6508-49b3-abc2-855877d27779")
+		(uuid "df310905-3a86-4ea2-b2b8-77a91329868c")
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -6927,8 +7139,8 @@
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
-		(uuid "bb0a59c5-0e0a-412b-b98f-a2a5ba3764b5")
-		(property "Reference" "#PWR016"
+		(uuid "5a9fc11a-b496-4ad0-8a1f-6954d2a0afe9")
+		(property "Reference" "#PWR019"
 			(at 243.84 138.43 0)
 			(effects
 				(font
@@ -6973,12 +7185,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "6ecf3296-266b-4e8f-8365-62aa6c129ba1")
+			(uuid "589b483c-c560-4d49-a9a4-cb654bdec2ac")
 		)
 		(instances
 			(project "low-noise-preamp"
 				(path "/16ae00e3-0cbd-49d0-b1fc-f249dbaeb0d0"
-					(reference "#PWR016")
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -7039,10 +7251,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "0ed1ee90-d3a8-416e-93c7-a8d699db1217")
+			(uuid "58434484-1281-4530-bbae-475eb2d31ed0")
 		)
 		(pin "2"
-			(uuid "d80f4af7-7f21-443a-8919-1a3ed107b1a7")
+			(uuid "2efbe7b8-0d7f-447f-b357-c185afb96bea")
 		)
 		(instances
 			(project "low-noise-preamp"
@@ -7062,7 +7274,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "33727cf9-d986-4767-9c6e-c2d0f052aa23")
+		(uuid "a3a2de90-bfb4-4b33-b7a6-7ed268623531")
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -7072,8 +7284,8 @@
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
-		(uuid "26ee675f-00c0-4ecd-bde8-7262bd6cbc94")
-		(property "Reference" "#PWR017"
+		(uuid "7a432412-1067-4bb1-8c9b-72fb5910f423")
+		(property "Reference" "#PWR020"
 			(at 243.84 163.83 0)
 			(effects
 				(font
@@ -7118,12 +7330,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "8a2bf005-a9e4-432e-88e6-709189941eb6")
+			(uuid "34d14f64-793e-4cb7-b18e-f704b9e3ad33")
 		)
 		(instances
 			(project "low-noise-preamp"
 				(path "/16ae00e3-0cbd-49d0-b1fc-f249dbaeb0d0"
-					(reference "#PWR017")
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)
@@ -7133,13 +7345,13 @@
 		(at 243.84 121.92)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "b37564d2-abb0-44c2-b552-aa679e38483d")
+		(uuid "d2c107fa-7f5f-47d6-a46b-c582b9450843")
 	)
 	(junction
 		(at 243.84 147.32)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "40d15faa-e6a1-4de8-b207-3acd42611a32")
+		(uuid "912660a7-6913-40ea-9bfd-ce154847ce74")
 	)
 	(symbol
 		(lib_id "power:+9V")
@@ -7149,8 +7361,8 @@
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
-		(uuid "e5a24335-4657-45a6-8e1b-1dc0de8ecee2")
-		(property "Reference" "#PWR018"
+		(uuid "5bd5c836-75ed-4abf-b9a2-b47ad864ab53")
+		(property "Reference" "#PWR021"
 			(at 248.92 125.73 0)
 			(effects
 				(font
@@ -7195,12 +7407,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "99d1c1a6-e025-4cd7-a153-d6c2e686a179")
+			(uuid "f15ad8f6-fd39-4233-9700-cb865a04a0cd")
 		)
 		(instances
 			(project "low-noise-preamp"
 				(path "/16ae00e3-0cbd-49d0-b1fc-f249dbaeb0d0"
-					(reference "#PWR018")
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)
@@ -7214,8 +7426,8 @@
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
-		(uuid "b9f43974-17d1-48bb-a661-032f4df25d15")
-		(property "Reference" "#PWR019"
+		(uuid "45d9c1f9-c59d-4239-8669-c6f7c3db8d23")
+		(property "Reference" "#PWR022"
 			(at 248.92 151.13 0)
 			(effects
 				(font
@@ -7260,12 +7472,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "b9634ec1-c329-4f6d-8a27-c040db127fa8")
+			(uuid "3aebb4f2-180d-4ec5-ba03-db527a7bca46")
 		)
 		(instances
 			(project "low-noise-preamp"
 				(path "/16ae00e3-0cbd-49d0-b1fc-f249dbaeb0d0"
-					(reference "#PWR019")
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)
@@ -7279,8 +7491,8 @@
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
-		(uuid "a1a42c53-6e79-4ed2-84c0-0a79b177ad97")
-		(property "Reference" "#PWR020"
+		(uuid "e831fa6b-3591-4ae9-aeb5-62124a8a95db")
+		(property "Reference" "#PWR023"
 			(at 187.96 173.99 0)
 			(effects
 				(font
@@ -7325,12 +7537,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "e09c21e2-f81e-4b5a-af75-43ed2a6a1221")
+			(uuid "8c09728e-f59d-484d-b471-79fa29f64674")
 		)
 		(instances
 			(project "low-noise-preamp"
 				(path "/16ae00e3-0cbd-49d0-b1fc-f249dbaeb0d0"
-					(reference "#PWR020")
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)
@@ -7345,7 +7557,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "33da5031-6390-4fdd-9b66-4e8c45795d0c")
+		(uuid "8588b7cf-2620-4b89-9791-7bac9118b9bb")
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
@@ -7355,7 +7567,7 @@
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
-		(uuid "ab59397c-0262-4c8c-b440-415662def5d3")
+		(uuid "b325b17a-433c-42ad-8a07-5f5b0abd0ff4")
 		(property "Reference" "#FLG001"
 			(at 195.58 168.275 0)
 			(effects
@@ -7401,7 +7613,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "f5e4b3ee-3d17-4bc7-9d08-22dd4b033e20")
+			(uuid "2eb487f8-e699-4a10-aed4-5bbd586576dc")
 		)
 		(instances
 			(project "low-noise-preamp"
@@ -7420,8 +7632,8 @@
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
-		(uuid "c8e2db94-c14f-466d-9249-bd41c15fe32e")
-		(property "Reference" "#PWR021"
+		(uuid "90963e89-cebe-4607-8b37-5c0a692c3086")
+		(property "Reference" "#PWR024"
 			(at 208.28 173.99 0)
 			(effects
 				(font
@@ -7466,12 +7678,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "86ab1059-42cd-4a53-8751-9cf5d5d88a8e")
+			(uuid "951198b2-3603-40f4-bd75-4e6f4406b140")
 		)
 		(instances
 			(project "low-noise-preamp"
 				(path "/16ae00e3-0cbd-49d0-b1fc-f249dbaeb0d0"
-					(reference "#PWR021")
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -7486,7 +7698,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "270b97b1-7891-4686-ad0e-4efd8293230c")
+		(uuid "466bb74c-c3f1-44e5-94d9-ab97920e371f")
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
@@ -7496,7 +7708,7 @@
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
-		(uuid "a075e467-e740-473a-9920-7abeda1ef890")
+		(uuid "2e237622-7734-4b77-8db2-e09d7562be74")
 		(property "Reference" "#FLG002"
 			(at 215.9 168.275 0)
 			(effects
@@ -7542,7 +7754,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "e5ba55bc-1f36-42f0-984e-eb238d45977b")
+			(uuid "9de4217a-9790-488d-bc0a-b6f544bdb394")
 		)
 		(instances
 			(project "low-noise-preamp"
@@ -7561,8 +7773,8 @@
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
-		(uuid "cd20154e-a380-46dc-8290-816a98fc851f")
-		(property "Reference" "#PWR022"
+		(uuid "645ff77f-6903-4bc0-9923-d5f959d324b6")
+		(property "Reference" "#PWR025"
 			(at 228.6 176.53 0)
 			(effects
 				(font
@@ -7607,12 +7819,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "539cdcf4-6d8b-46ae-8025-31051c6431b9")
+			(uuid "2937ab45-9329-41b6-b225-32bd62e148af")
 		)
 		(instances
 			(project "low-noise-preamp"
 				(path "/16ae00e3-0cbd-49d0-b1fc-f249dbaeb0d0"
-					(reference "#PWR022")
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
@@ -7627,7 +7839,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "18ef6ba0-1f00-4859-8a54-2734675c82c4")
+		(uuid "fc5d4e58-105f-41bc-9abb-fc2649a368e4")
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
@@ -7637,7 +7849,7 @@
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
-		(uuid "ee2abe70-c676-4aa4-b9df-616886b7601c")
+		(uuid "b18a10b3-d8c7-415d-a9b9-325e4939f07a")
 		(property "Reference" "#FLG003"
 			(at 236.22 168.275 0)
 			(effects
@@ -7683,7 +7895,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "a340011b-16bc-4bb9-a438-959c155b20d7")
+			(uuid "11493d5b-de4e-4c6f-9a72-b040448566e9")
 		)
 		(instances
 			(project "low-noise-preamp"
@@ -7694,7 +7906,7 @@
 			)
 		)
 	)
-	(text "BT1 pin 1 = upper battery +; BT2 pin 2 = lower battery -. GND is the mid-point.\nR12/C6 and R13/C7: 72 Hz RC filter per rail. Total load ~16 mA."
+	(text "BT1 pin 1 = upper battery +; BT2 pin 2 = lower battery -. GND is the mid-point.\nR12/C6 and R13/C7: 15 Hz RC filter per rail, also limits switch-on inrush. Total load ~16 mA."
 		(exclude_from_sim no)
 		(at 182.88 177.8 0)
 		(effects
@@ -7703,7 +7915,7 @@
 			)
 			(justify left)
 		)
-		(uuid "021dc9aa-7bd7-4409-8967-ff51dd89b8bc")
+		(uuid "a98647c0-63ef-4274-beb6-473a5ed63463")
 	)
 	(rectangle
 		(start 279.4 106.68)
@@ -7715,7 +7927,7 @@
 		(fill
 			(type none)
 		)
-		(uuid "1ecb56bf-38d8-4320-861f-a3b64767910a")
+		(uuid "3ae2fcf0-56b9-4505-a90e-15f402235b24")
 	)
 	(text "6  Decoupling (at U1 and U2 supply pins)"
 		(exclude_from_sim no)
@@ -7726,7 +7938,7 @@
 			)
 			(justify left)
 		)
-		(uuid "794436da-1763-437e-a1f8-8e325df3cdf8")
+		(uuid "f4fedd70-eac4-49c5-aaa6-c7ad78e49a85")
 	)
 	(wire
 		(pts
@@ -7737,7 +7949,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "24e8c002-442c-4ae7-9257-9e4d839398e7")
+		(uuid "5ddd3eb0-e283-418b-84e4-49cf08c6109a")
 	)
 	(symbol
 		(lib_id "power:+9V")
@@ -7747,8 +7959,8 @@
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
-		(uuid "19549bc1-dec1-4dd1-b3e1-2f9dfc4357af")
-		(property "Reference" "#PWR023"
+		(uuid "18bfd7e7-d518-4777-abfa-cc57433b2b5a")
+		(property "Reference" "#PWR026"
 			(at 287.02 125.73 0)
 			(effects
 				(font
@@ -7793,12 +8005,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "2e9966ea-d00d-49c8-8aff-4b0b178a1471")
+			(uuid "eb623156-a7cd-45ed-b4b6-a6a5d14705f3")
 		)
 		(instances
 			(project "low-noise-preamp"
 				(path "/16ae00e3-0cbd-49d0-b1fc-f249dbaeb0d0"
-					(reference "#PWR023")
+					(reference "#PWR026")
 					(unit 1)
 				)
 			)
@@ -7813,7 +8025,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "8821b061-163c-4880-8bcd-41fe4480bf1f")
+		(uuid "8e9e0ab7-b7ef-444c-b19c-005e8c97089c")
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -7823,8 +8035,8 @@
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
-		(uuid "4fccd9df-b281-444b-badb-4bcc896541db")
-		(property "Reference" "#PWR024"
+		(uuid "67382400-2c01-4aa0-a85b-02ac4bd14598")
+		(property "Reference" "#PWR027"
 			(at 287.02 143.51 0)
 			(effects
 				(font
@@ -7869,12 +8081,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "46ccb677-ad01-4adf-b20c-2e3fe8e1fd48")
+			(uuid "34332d1d-2172-4ade-9a0d-d925f3c81331")
 		)
 		(instances
 			(project "low-noise-preamp"
 				(path "/16ae00e3-0cbd-49d0-b1fc-f249dbaeb0d0"
-					(reference "#PWR024")
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -7889,7 +8101,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "23227f5a-f05e-4abd-976d-c689f16c4264")
+		(uuid "704724d5-0aa1-4c76-beaa-7033ff9255bf")
 	)
 	(symbol
 		(lib_id "power:-9V")
@@ -7899,8 +8111,8 @@
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
-		(uuid "c6e990f8-11a8-4581-8ab1-bf9b82ed97b7")
-		(property "Reference" "#PWR025"
+		(uuid "23835dc4-92d4-4ec2-bb0a-5d4c8a958334")
+		(property "Reference" "#PWR028"
 			(at 287.02 156.21 0)
 			(effects
 				(font
@@ -7945,12 +8157,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "23d1aee8-dd89-4d6b-b7c6-1636e9debe66")
+			(uuid "480a92b0-992c-4fb6-87da-5097dc43e9fc")
 		)
 		(instances
 			(project "low-noise-preamp"
 				(path "/16ae00e3-0cbd-49d0-b1fc-f249dbaeb0d0"
-					(reference "#PWR025")
+					(reference "#PWR028")
 					(unit 1)
 				)
 			)
@@ -8011,10 +8223,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "2a357ce1-bae2-4ca2-bf05-19369a696240")
+			(uuid "60d024be-7454-401a-86b2-211de94e37d9")
 		)
 		(pin "2"
-			(uuid "44aab3a4-9d22-4c84-9281-9aae8c128b0d")
+			(uuid "d182d508-f579-42aa-a6c7-a0baf00dc5e0")
 		)
 		(instances
 			(project "low-noise-preamp"
@@ -8034,7 +8246,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "11ab2e03-a2ff-4eda-aabf-3227cdc79a09")
+		(uuid "81dfe836-e36c-4364-bf34-de4f3ad30904")
 	)
 	(wire
 		(pts
@@ -8045,19 +8257,19 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "0474c1b1-9726-49cb-9463-92eb2b0aaab7")
+		(uuid "4ff7b1e8-ed6c-4a32-8f11-da4394d3c39e")
 	)
 	(junction
 		(at 294.64 121.92)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "91c4e509-865a-45de-a1d1-2ad11b23518b")
+		(uuid "ea82fd6f-bdfd-4088-95af-02fe8f605684")
 	)
 	(junction
 		(at 294.64 137.16)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "3b00e656-8014-41d9-8605-54809a5832af")
+		(uuid "816a149e-26b5-41d4-9a15-5a38c953e80a")
 	)
 	(symbol
 		(lib_id "Device:C")
@@ -8114,10 +8326,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "b2b13b4c-7f8b-4534-aa38-a995459517fe")
+			(uuid "497c9feb-fb69-418a-9546-1f1365e13c57")
 		)
 		(pin "2"
-			(uuid "2645540a-437b-432d-af6b-b790ab83c20b")
+			(uuid "dd736338-e301-454f-a9eb-017a271782c0")
 		)
 		(instances
 			(project "low-noise-preamp"
@@ -8137,7 +8349,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "ff747c89-a547-4c9f-bebe-c25a6dd4cb7f")
+		(uuid "ab3fb385-5d17-4e10-97ee-a861ce4b1724")
 	)
 	(wire
 		(pts
@@ -8148,19 +8360,19 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "c5c87a8f-6272-41e8-a32f-81783102494c")
+		(uuid "31200c89-cc09-44c2-b4f6-0284f5149f74")
 	)
 	(junction
 		(at 294.64 137.16)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "119d896e-66e7-4e05-851b-35bc839eb480")
+		(uuid "aa7885c0-6996-403f-b62a-6f0429d405c6")
 	)
 	(junction
 		(at 294.64 152.4)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "18fa41d0-243f-46a5-b691-c19f448911ef")
+		(uuid "2a9a94ce-140c-4b8e-b7af-62dfca35c544")
 	)
 	(symbol
 		(lib_id "Device:C")
@@ -8217,10 +8429,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "0dcfda2b-28d6-4e80-ae75-bb8a3edab507")
+			(uuid "446e6e83-1900-4a1e-bf09-158dab3bc36f")
 		)
 		(pin "2"
-			(uuid "257af03c-1513-4079-98a4-fbcc504863a0")
+			(uuid "42a03fbf-0e3b-4a57-b2f9-71897adc0784")
 		)
 		(instances
 			(project "low-noise-preamp"
@@ -8240,7 +8452,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "50749a4d-c0d7-4264-9fa4-84aede4703ec")
+		(uuid "4d51e8d8-983a-4e5b-9404-fd985ab66e68")
 	)
 	(wire
 		(pts
@@ -8251,19 +8463,19 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "d5e15e43-5aec-42da-a2dc-7113c3c78ddb")
+		(uuid "3572620c-041b-4822-8ca3-d66ddd97b0a7")
 	)
 	(junction
 		(at 304.8 121.92)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "92c8a3d7-9859-4caa-bc98-9d0a87a397f7")
+		(uuid "2061f589-a08c-4f55-a547-a709837c0833")
 	)
 	(junction
 		(at 304.8 137.16)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "3969bd9a-9b52-4488-bd62-5e848dc53a08")
+		(uuid "b9114722-ca6b-4587-8543-357fa3fd3517")
 	)
 	(symbol
 		(lib_id "Device:C")
@@ -8320,10 +8532,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "02cc705f-a1c8-42c1-9d90-7c6dad3e72f8")
+			(uuid "6e7abc70-254b-4631-842c-a910ecc8a0f9")
 		)
 		(pin "2"
-			(uuid "fc00d85a-7b5e-4dc4-8d50-9ba69631d256")
+			(uuid "9eaf5eb6-f738-4f38-a8ba-d1df56110bf0")
 		)
 		(instances
 			(project "low-noise-preamp"
@@ -8343,7 +8555,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "9c987101-251a-4033-88d1-c7cc5ea44fe2")
+		(uuid "316b812c-5a8c-480f-ba00-1d50c6ab17ac")
 	)
 	(wire
 		(pts
@@ -8354,19 +8566,19 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "e947d26b-3da4-4992-85c6-9f5cb71a2858")
+		(uuid "761d8612-a1ec-4041-b5f6-11e53c082a4d")
 	)
 	(junction
 		(at 304.8 137.16)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "d4c342e6-afaa-4321-9904-66abf413092d")
+		(uuid "e2482744-6bff-4e56-b556-b64d59831893")
 	)
 	(junction
 		(at 304.8 152.4)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "1ef74efb-9f15-4263-8a53-2d026975fbf1")
+		(uuid "ffc60918-1c6d-445f-afa5-63f2a3e20512")
 	)
 	(symbol
 		(lib_id "Device:C")
@@ -8423,10 +8635,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "a6b16ce7-ac5c-4ac4-8751-947dcf10857f")
+			(uuid "16d14a22-9c72-49a4-ba51-020098757b59")
 		)
 		(pin "2"
-			(uuid "050c0102-cedb-47a4-92f3-ae9cefe692f5")
+			(uuid "1d7df519-0b2e-4e62-bd90-bdb287c111a5")
 		)
 		(instances
 			(project "low-noise-preamp"
@@ -8446,7 +8658,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "c05bea21-5eda-4c27-82f6-155137ad779c")
+		(uuid "336bc655-734e-4fc5-abad-1ca80ba85f15")
 	)
 	(wire
 		(pts
@@ -8457,19 +8669,19 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "92e64016-4b50-4902-bc3d-b31effb40fae")
+		(uuid "b03e3ed0-69bf-423e-bee8-36a03eb734b3")
 	)
 	(junction
 		(at 320.04 121.92)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "6987603a-5cdd-4a3b-97fb-e61dbb5c88c8")
+		(uuid "3b834128-f6cb-4682-a54f-4d1c451c47eb")
 	)
 	(junction
 		(at 320.04 137.16)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "14ec3eba-dc35-418b-9bbc-ce33ca04194c")
+		(uuid "ed52f25c-04d9-4d2b-9089-3bbd14af694e")
 	)
 	(symbol
 		(lib_id "Device:C")
@@ -8526,10 +8738,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "f059b2da-9616-4cd0-b884-22a9605f69a5")
+			(uuid "8ac144e0-2fbb-4ea0-82c0-9284f741aa66")
 		)
 		(pin "2"
-			(uuid "67516417-de44-4520-bbe1-36450add7bba")
+			(uuid "91be84c2-be9e-48a9-8af4-cd29ba969915")
 		)
 		(instances
 			(project "low-noise-preamp"
@@ -8549,7 +8761,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "01fb3b8a-9268-4210-9888-7cb3f5b6af3c")
+		(uuid "50dcfcc2-628c-4d87-939d-84e47680e122")
 	)
 	(wire
 		(pts
@@ -8560,19 +8772,19 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "8d5b5738-4e50-432c-b4bc-18d114b1ac75")
+		(uuid "cd36d954-ad29-461c-849e-a438f484e0cd")
 	)
 	(junction
 		(at 320.04 137.16)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "22906fa1-ccaf-4cc9-a7cf-57f59d9b1174")
+		(uuid "3a12eed0-42b4-4672-9f4d-c0ace4d02ef2")
 	)
 	(junction
 		(at 320.04 152.4)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "991c82eb-f25c-4324-a1fe-3aff3f71ed2f")
+		(uuid "e5778c39-d169-4384-99d7-bb93f582e2e0")
 	)
 	(symbol
 		(lib_id "Amplifier_Operational:OPA1612AxD")
@@ -8629,10 +8841,10 @@
 			)
 		)
 		(pin "4"
-			(uuid "b475f2ae-a550-461d-90e8-6cf0d77b80e1")
+			(uuid "a306a2b4-e2e5-4b97-9206-d8c7c3d74446")
 		)
 		(pin "8"
-			(uuid "c71d00c1-50fa-4552-a73c-89368c343876")
+			(uuid "35795bce-f962-48c9-b121-e3b48553edaa")
 		)
 		(instances
 			(project "low-noise-preamp"
@@ -8652,7 +8864,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "cb45b33e-658f-48df-b28c-f024db55420f")
+		(uuid "861b937b-2ede-4a07-9174-dae77a978f31")
 	)
 	(wire
 		(pts
@@ -8663,7 +8875,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "cacf7cc0-3c32-4b88-98d6-237295288469")
+		(uuid "b34f48f2-5052-4e1a-8735-c89ba7d0b5d7")
 	)
 	(text "C8-C11 at U1 pins 7/4; C12/C13 at U2 pins 8/4."
 		(exclude_from_sim no)
@@ -8674,7 +8886,7 @@
 			)
 			(justify left)
 		)
-		(uuid "ed46fa34-d027-4758-a459-f9636211c041")
+		(uuid "50f5a4e6-3cc5-4122-8471-4bddb0d88afe")
 	)
 	(sheet_instances
 		(path "/"
