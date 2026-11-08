@@ -22,9 +22,8 @@ OPA1612,1,2,LCSC,OPA1612AIDR (TI),C94590,U2
 47 ohm 1% 0805,2,100,LCSC,0805W8F470JT5E (UNI-ROYAL),C17714,"R12,R13"
 SMA female edge-mount jack,2,4,Taobao,"SMA-KE for 1.6 mm board; check leg spacing against the footprint",,"J1,J2"
 MSS-22D18 slide switch,3,10,LCSC,MSS-22D18G3 051 (SHOU HAN),C7507430,"SW1,SW2,SW3"
-JST XH 2-pin vertical header,2,20,LCSC,B2B-XH-A(LF)(SN) (JST),C158012,"BT1,BT2"
-9 V battery snap with XH 2-pin plug,2,4,Taobao,9V电池扣 XH2.54; red wire must land on the + pin of BT1/BT2,,off board
+"9 V battery snap, bare tinned leads 155 mm",2,5,LCSC,"BE-13-018-155 (MYOUNG); solder leads straight into BT1/BT2 holes, red wire to the + hole marked on silk",C19184109,"BT1,BT2"
 Shield can 20 x 15 mm,1,2,Taobao,"屏蔽罩 20x15, tinplate, 3 mm or taller",,over U1 ring
-M3 nylon standoff + screw set,4,1 set,Taobao,M3 尼龙柱 10mm,,corner holes
+M3 nylon standoff + nut set,4,1 set,Taobao,M3*25+6 尼龙柱 (25 mm clears the batteries underneath),,corner holes
 SMA male to BNC male cable,1,1,Taobao,SMA公转BNC公 线 50 ohm,,to scope
 9 V battery,2,2,Taobao,9V 电池,,off board
