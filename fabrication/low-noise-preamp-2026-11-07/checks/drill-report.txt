@@ -1,5 +1,5 @@
 Drill report for low-noise-preamp.kicad_pcb
-Created on 2026-11-07T18:37:41
+Created on 2026-11-07T21:35:02
 
 Copper Layer Stackup:
     =============================================================
