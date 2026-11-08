@@ -5,5 +5,5 @@ ZIP: 7 Gerber layers + separate PTH and NPTH Excellon drills + Gerber job file. 
 ERC, DRC, unconnected, schematic parity checks: all 0; see checks/.
 J1 and J2 are edge-mount SMA jacks; the board edge must stay at 1.6 mm thickness.
 The GND ring around U1 is mask-free on purpose so a 20 x 15 mm shield can can be soldered on.
-Parts: buy from low-noise-preamp-taobao.csv; low-noise-preamp-bom.csv is the plain KiCad BOM.
+Parts: buy from low-noise-preamp-parts.csv (Source column says LCSC or Taobao); low-noise-preamp-bom.csv is the plain KiCad BOM.
 The ZIP is generated from the current saved board; edits after export require regeneration.
